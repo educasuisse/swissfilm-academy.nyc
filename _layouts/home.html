@@ -2,27 +2,38 @@
 layout: default
 ---
 
-<div class="home">
-  <div class="jumbotron" style="background-image: url(/assets/img/new_york.jpg);">
-    <img src="/assets/img/logo-swiss_film_academy.png" alt="Swiss Film Academy's logo" class="px-5 mt-5" width="100%">
-    <i class="arrow--scroll"></i>
+<div class="jumbotron" style="background-image: url(/assets/img/new_york.jpg);">
+  <img src="/assets/img/logo-swiss_film_academy.png" alt="Swiss Film Academy's logo" class="px-5 mt-5" width="100%">
+  <i class="arrow--scroll"></i>
+</div>
+
+<div class="p-5">
+
+  <h1 class="lead mb-5 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget faucibus lorem.</h1>
+
+  <p class="text-center mb-5">
+    <a href="mailto:info@swissfilm-academy.nyc" class="btn btn-outline-danger btn-lg rounded-0">info@swissfilm-academy.nyc</a>
+  </p>
+
+  <div class="row text-center">
+    <div class="col-12 col-md">
+      <b>Administrative address</b></br>
+      244 5th Avenue, Ste. E55.</br>
+      New York, NY 10001
+    </div>
+    <div class="col mt-5 mt-md-0">
+      <b>School address</b></br>
+      520 8th Avenue, 16th floor</br>
+      New York, NY 10018
+    </div>
   </div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
 </div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.7906828788705!2d-73.9899043843148!3d40.74463114355508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a614ccab0b%3A0x1b4365a9aca134a6!2s244+5th+Ave%2C+New+York%2C+NY+10001%2C+%C3%89tats-Unis!5e0!3m2!1sfr!2sch!4v1508613491910" width="100%" height="450" frameborder="0" style="border:0; margin-bottom: -8px;" allowfullscreen></iframe>
+
+<footer class="text-light bg-dark p-5">
+  <p class="m-0 text-center">
+    Swiss Film Academy is a school by <a href="https://educasuisse.ch/" class="text-danger">Educasuisse</a>.
+  </p>
+</footer>

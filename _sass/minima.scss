@@ -1,9 +1,18 @@
-.home {
-  .jumbotron {
-    height: 100vh;
-    background-size: cover;
-    background-position: top center;
+.btn-outline-danger {
+  color: red;
+  border-color: red;
+
+  &:hover {
+    color: white;
+    background-color: darken(red, 10%);
+    border-color: darken(red, 10%);
   }
+}
+
+.jumbotron {
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
 
   img {
     display: block;
