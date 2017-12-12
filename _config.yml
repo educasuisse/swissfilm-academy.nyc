@@ -16,9 +16,10 @@
 title: Swiss Film Academy of New York
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Swiss Film Academy of New York is a nonprofit film school located in
+  Manhattan, New York, founded in 2017 by Educasuisse located in Geneva,
+  Switzerland. The School offers noncredit courses in the arts of filmmaking,
+  producing, directing and screenwriting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://swissfilm-academy.nyc" # the base hostname & protocol for your site, e.g. http://example.com
 
